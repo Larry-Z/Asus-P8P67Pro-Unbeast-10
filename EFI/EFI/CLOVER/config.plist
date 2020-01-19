@@ -263,6 +263,8 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
+		<key>FBName</key>
+		<string>Orinoco</string>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -272,6 +274,10 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
+		<key>VRAM</key>
+		<integer>8192</integer>
+		<key>VideoPorts</key>
+		<integer>5</integer>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -320,6 +326,20 @@
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
 				<data>g/k/Dw==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Black Screen fix 3</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>AAQAAAQDAAAAAQEBAAAAABIEBgEAAAAAAAQAAAQDAAAAAQIBAAAAACIFBAMAAAAAAAgAAAQCAAAAAQMAAAAAABECAQIAAAAAAAgAAAQCAAAAAQQAAAAAACEDBQQAAAAABAAAAAQAAAAAAQUAAAAAAAAAAwYAAAAA</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AMD9500Controller</string>
+				<key>Replace</key>
+				<data>AAQAAAQDAAAAAQABAAAAABIEBgEAAAAAAAQAAAQDAAAAAQABAAAAACIFBAMAAAAAAAQAAAQDAAAAAQABAAAAABECAQIAAAAAAAgAAAQCAAAAAQAAAAAAACEDBQQAAAAABAAAAAQCAAAAAQAAAAAAAAAAAwYAAAAA</data>
 			</dict>
 		</array>
 	</dict>
