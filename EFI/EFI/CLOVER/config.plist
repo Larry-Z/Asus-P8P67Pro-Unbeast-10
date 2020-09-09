@@ -175,12 +175,12 @@
 			<dict>
 				<key>USB</key>
 				<true/>
-				<key>HDMI</key>
-				<true/>
-				<key>ATI</key>
-				<true/>
 				<key>SmBUS</key>
 				<false/>
+				<key>ATI</key>
+				<true/>
+				<key>HDMI</key>
+				<true/>
 				<key>LAN</key>
 				<true/>
 				<key>IntelGFX</key>
@@ -279,8 +279,6 @@
 	</array>
 	<key>Graphics</key>
 	<dict>
-		<key>FBName</key>
-		<string>Orinoco</string>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -290,10 +288,6 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
-		<key>VideoPorts</key>
-		<integer>5</integer>
-		<key>VRAM</key>
-		<integer>8192</integer>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -336,20 +330,6 @@
 				<data>g/k/Dw==</data>
 				<key>MatchOS</key>
 				<string>10.15.x</string>
-			</dict>
-			<dict>
-				<key>Find</key>
-				<data>AAQAAAQDAAAAAQEBAAAAABIEBgEAAAAAAAQAAAQDAAAAAQIBAAAAACIFBAMAAAAAAAgAAAQCAAAAAQMAAAAAABECAQIAAAAAAAgAAAQCAAAAAQQAAAAAACEDBQQAAAAABAAAAAQAAAAAAQUAAAAAAAAAAwYAAAAA</data>
-				<key>Name</key>
-				<string>AMD9500Controller</string>
-				<key>Replace</key>
-				<data>AAQAAAQDAAAAAQABAAAAABIEBgEAAAAAAAQAAAQDAAAAAQABAAAAACIFBAMAAAAAAAQAAAQDAAAAAQABAAAAABECAQIAAAAAAAgAAAQCAAAAAQAAAAAAACEDBQQAAAAABAAAAAQCAAAAAQAAAAAAAAAAAwYAAAAA</data>
-				<key>Disabled</key>
-				<false/>
-				<key>Comment</key>
-				<string>Black Screen fix 3</string>
-				<key>InfoPlistPatch</key>
-				<false/>
 			</dict>
 		</array>
 		<key>#FakeCPUID</key>
