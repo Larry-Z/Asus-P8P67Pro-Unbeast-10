@@ -230,7 +230,7 @@
 	<key>GUI</key>
 	<dict>
 		<key>Theme</key>
-		<string>Catalina4k</string>
+		<string>Catalina</string>
 		<key>Hide</key>
 		<array>
 			<string>Windows</string>
