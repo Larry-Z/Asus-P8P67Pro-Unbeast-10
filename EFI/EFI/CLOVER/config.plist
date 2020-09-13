@@ -219,7 +219,7 @@
 		<key>Debug</key>
 		<true/>
 		<key>Arguments</key>
-		<string>nvda_drv=1 dart=0</string>
+		<string>nvda_drv=1 dart=0 -liludbg -wegdbg</string>
 		<key>XMPDetection</key>
 		<false/>
 		<key>Timeout</key>
@@ -330,6 +330,8 @@
 	</array>
 	<key>Graphics</key>
 	<dict>
+		<key>FBName</key>
+		<string>Orinoco</string>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -337,8 +339,14 @@
 			<key>Intel</key>
 			<false/>
 			<key>NVidia</key>
-			<true/>
+			<false/>
 		</dict>
+		<key>VideoPorts</key>
+		<integer>5</integer>
+		<key>VRAM</key>
+		<integer>8192</integer>
+		<key>RadeonDeInit</key>
+		<true/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -381,6 +389,18 @@
 				<data>g/k/Dw==</data>
 				<key>MatchOS</key>
 				<string>10.15.x</string>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>Ym9hcmQtaWQ=</data>
+				<key>Name</key>
+				<string>AppleGraphicsDevicePolicy</string>
+				<key>Replace</key>
+				<data>Ym9hcmQtaXg=</data>
+				<key>Disabled</key>
+				<false/>
+				<key>Comment</key>
+				<string>Black Screen Patch Vega 56/64, RX580 etc. (c)Pike R. Alpha</string>
 			</dict>
 		</array>
 		<key>#FakeCPUID</key>
