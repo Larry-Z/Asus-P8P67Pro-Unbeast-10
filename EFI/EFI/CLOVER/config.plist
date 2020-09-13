@@ -401,6 +401,18 @@
 				<false/>
 				<key>Comment</key>
 				<string>Black Screen Patch Vega 56/64, RX580 etc. (c)Pike R. Alpha</string>
+				<key>InfoPlistPatch</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>ugUAAAA=</data>
+				<key>Name</key>
+				<string>com.apple.driver.AppleGraphicsDevicePolicy</string>
+				<key>Replace</key>
+				<data>ugAAAAA=</data>
+				<key>Disabled</key>
+				<false/>
 			</dict>
 		</array>
 		<key>#FakeCPUID</key>
