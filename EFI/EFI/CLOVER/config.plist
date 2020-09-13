@@ -335,7 +335,7 @@
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
-			<false/>
+			<true/>
 			<key>Intel</key>
 			<false/>
 			<key>NVidia</key>
@@ -411,6 +411,18 @@
 				<string>com.apple.driver.AppleGraphicsDevicePolicy</string>
 				<key>Replace</key>
 				<data>ugAAAAA=</data>
+				<key>Disabled</key>
+				<false/>
+				<key>InfoPlistPatch</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Find</key>
+				<data>AAQAAAQDAAAAAQEBAAAAABIEBgEAAAAAAAQAAAQDAAAAAQIBAAAAACIFBAMAAAAAAAgAAAQCAAAAAQMAAAAAABECAQIAAAAAAAgAAAQCAAAAAQQAAAAAACEDBQQAAAAABAAAAAQAAAAAAQUAAAAAAAAAAwYAAAAA</data>
+				<key>Name</key>
+				<string>AMD9500Controller</string>
+				<key>Replace</key>
+				<data>AAQAAAQDAAAAAQABAAAAABIEBgEAAAAAAAQAAAQDAAAAAQABAAAAACIFBAMAAAAAAAQAAAQDAAAAAQABAAAAABECAQIAAAAAAAgAAAQCAAAAAQAAAAAAACEDBQQAAAAABAAAAAQCAAAAAQAAAAAAAAAAAwYAAAAA</data>
 				<key>Disabled</key>
 				<false/>
 			</dict>
