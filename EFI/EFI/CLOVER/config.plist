@@ -231,10 +231,61 @@
 	<dict>
 		<key>Theme</key>
 		<string>Catalina</string>
+		<key>Custom</key>
+		<dict>
+			<key>Entries</key>
+			<array>
+				<dict>
+					<key>Ignore</key>
+					<false/>
+					<key>NoCaches</key>
+					<false/>
+					<key>Type</key>
+					<string>OSX</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Title</key>
+					<string>OS X</string>
+					<key>Volume</key>
+					<string>4DEB75082FACB347AED7A4BEA921BE44</string>
+				</dict>
+				<dict>
+					<key>Ignore</key>
+					<false/>
+					<key>Type</key>
+					<string>Windows</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Title</key>
+					<string>Windows 10 SSD</string>
+					<key>Volume</key>
+					<string>7E16345C-962F-43F7-A410-50A5B84EC460</string>
+				</dict>
+				<dict>
+					<key>Ignore</key>
+					<false/>
+					<key>Type</key>
+					<string>Windows</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Title</key>
+					<string>Windows 10 HDD</string>
+					<key>Volume</key>
+					<string>0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Hide</key>
 		<array>
 			<string>Windows</string>
 			<string>BOOTX64.EFI</string>
+			<string>Legacy HD1</string>
+			<string>Legacy HD2</string>
+			<string>Legacy HD3</string>
+			<string>Legacy HD4</string>
+			<string>Windows 10</string>
+			<string>Preboot</string>
+			<string>VM</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
