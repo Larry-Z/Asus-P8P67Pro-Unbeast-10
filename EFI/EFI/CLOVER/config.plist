@@ -219,7 +219,7 @@
 		<key>Debug</key>
 		<true/>
 		<key>Arguments</key>
-		<string>nvda_drv=1 dart=0 -liludbg -wegdbg</string>
+		<string>nvda_drv=1 dart=0 -liludbg -wegdbg agdpmod=pikera</string>
 		<key>XMPDetection</key>
 		<false/>
 		<key>Timeout</key>
@@ -437,7 +437,7 @@
 	<key>RtVariables</key>
 	<dict>
 		<key>CsrActiveConfig</key>
-		<string>0x3E7</string>
+		<string>0x3</string>
 		<key>MLB</key>
 		<string>C025321044NGPF7A8</string>
 		<key>ROM</key>
