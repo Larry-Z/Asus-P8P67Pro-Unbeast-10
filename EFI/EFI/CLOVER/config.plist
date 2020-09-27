@@ -305,6 +305,11 @@
 	<dict>
 		<key>LANInjection</key>
 		<false/>
+		<key>FakeID</key>
+		<dict>
+			<key>ATI</key>
+			<string>0x67DF1002</string>
+		</dict>
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
