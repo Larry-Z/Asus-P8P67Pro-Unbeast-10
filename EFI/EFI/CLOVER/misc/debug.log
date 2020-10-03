@@ -13930,3 +13930,953 @@
 18:654  0:008  Closing log
 18:662  0:008  start image 'boot.efi'
 18:671  0:009  Using load options 'boot.efi nvda_drv=1 dart=0 -liludbg -wegdbg keepsyms=1 '
+0:100  0:100  MemLog inited, TSC freq: 3411125145
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  Clover : Image base = 0xCD55000
+0:100  0:000  
+0:100  0:000  Now is 03.10.2020,  06:25:24 (GMT)
+0:100  0:000  Starting Clover revision: 5122 (master, commit f4e10b1a2) on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sergey/src/Clover/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000) @2323518
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:102  0:001  SimpleTextEx Status=Success
+0:102  0:000  === [ Get Smbios ] ==============================
+0:102  0:000  Type 16 Index = 0
+0:102  0:000  Total Memory Slots Count = 4
+0:102  0:000  Type 17 Index = 0
+0:102  0:000  Table has error information, checking
+0:102  0:000  Found memory information in table 18/1, type=0x3, operation=0x2 syndrome=0x0
+0:102  0:000  ...memory OK
+0:102  0:000  SmbiosTable.Type17->Speed = 1067MHz
+0:102  0:000  SmbiosTable.Type17->Size = 8192MB
+0:102  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:102  0:000  SmbiosTable.Type17->Vendor = 029E
+0:102  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:102  0:000  SmbiosTable.Type17->PartNumber = CMV8GX3M1A1600C11 
+0:102  0:000  Type 17 Index = 1
+0:102  0:000  SmbiosTable.Type17->Speed = 1067MHz
+0:102  0:000  SmbiosTable.Type17->Size = 8192MB
+0:102  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:102  0:000  SmbiosTable.Type17->Vendor = 029E
+0:102  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:102  0:000  SmbiosTable.Type17->PartNumber = CMZ8GX3M1A1600C10 
+0:102  0:000  Type 17 Index = 2
+0:102  0:000  Table has error information, checking
+0:102  0:000  Found memory information in table 18/2, type=0x3, operation=0x2 syndrome=0x0
+0:102  0:000  ...memory OK
+0:102  0:000  Ignoring insane frequency value 0MHz
+0:102  0:000  Type 17 Index = 3
+0:102  0:000  Ignoring insane frequency value 0MHz
+0:102  0:000  Boot status=0
+0:102  0:000  Running on: 'System Product Name' with board 'P8P67 PRO'
+0:102  0:000  === [ GetCPUProperties ] ========================
+0:102  0:000  CPU Vendor = 756E6547 Model=206A7
+0:102  0:000   The CPU supported SSE4.1
+0:102  0:000  BrandString = Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz
+0:102  0:000   The CPU supported turbo
+0:102  0:000  MSR 0x35               40008
+0:102  0:000  MSR 0xE2 before patch 1E008403
+0:102  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:102  0:000  MSR 0xCE              00001000_70012200
+0:102  0:000  corrected FLEX_RATIO = E0000
+0:102  0:000  MSR 0x1B0             00000000
+0:102  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:102  0:000  MaxDiv/MinDiv: 34.0/16
+0:102  0:000  Turbo: 35/36/37/38
+0:102  0:000  Features: 0x179AE3BFBFEBFBFF
+0:102  0:000  Threads: 8
+0:102  0:000  Cores: 4
+0:102  0:000  FSB: 100 MHz
+0:102  0:000  CPU: 3400 MHz
+0:102  0:000  TSC: 3400 MHz
+0:102  0:000  PIS: 100 MHz
+0:102  0:000  ExternalClock: 25 MHz
+0:102  0:000  === [ GetDevices ] ==============================
+0:102  0:000  GOP found at: PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010100)
+0:102  0:000  PCI (00|00:00.00) : 8086 0100 class=060000
+0:102  0:000  PCI (00|00:01.00) : 8086 0101 class=060400
+0:102  0:000  PCI (00|01:00.00) : 1002 67DF class=030000
+0:102  0:000   - GOP: Provided by device
+0:102  0:000   - GFX: Model=AMD Radeon RX 480/570/580 (ATI/AMD)
+0:102  0:000  PCI (00|01:00.01) : 1002 AAF0 class=040300
+0:102  0:000   - HDMI Audio: 
+0:102  0:000  PCI (00|00:16.00) : 8086 1C3A class=078000
+0:102  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:102  0:000  PCI (00|00:16.03) : FFFF FFFF class=FFFFFF
+0:102  0:000  PCI (00|00:19.00) : 8086 1503 class=020000
+0:102  0:000   - LAN: 0 Vendor=Intel
+0:102  0:000  PCI (00|00:1A.00) : 8086 1C2D class=0C0320
+0:102  0:000  PCI (00|00:1B.00) : 8086 1C20 class=040300
+0:102  0:000  PCI (00|00:1C.00) : 8086 1C10 class=060400
+0:102  0:000  PCI (00|00:1C.02) : 8086 1C14 class=060400
+0:102  0:000  PCI (00|03:00.00) : 168C 0030 class=028000
+0:102  0:000   - WIFI: Vendor= Atheros
+0:102  0:000  PCI (00|00:1C.03) : 8086 1C16 class=060400
+0:102  0:000  PCI (00|04:00.00) : 197B 2362 class=010185
+0:102  0:000  PCI (00|00:1C.06) : 8086 244E class=060401
+0:102  0:000  PCI (00|05:00.00) : 1B21 1080 class=060401
+0:102  0:000  PCI (00|00:1C.07) : 8086 1C1E class=060400
+0:102  0:000  PCI (00|07:00.00) : 1B4B 9172 class=010601
+0:102  0:000  PCI (00|00:1D.00) : 8086 1C26 class=0C0320
+0:102  0:000  PCI (00|00:1F.00) : 8086 1C46 class=060100
+0:102  0:000  PCI (00|00:1F.02) : 8086 1C02 class=010601
+0:102  0:000  PCI (00|00:1F.03) : 8086 1C22 class=0C0500
+0:102  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:102  0:000  === [ GetDefaultSettings ] ======================
+0:102  0:000  Clover load options size = 4 bytes
+0:114  0:011  CheckOEMPathExists tried EFI\CLOVER\OEM\System Product Name--00-00-00-00-00-00. Dir not exists
+0:114  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\P8P67 PRO\UEFI. Dir not exists
+0:114  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\System Product Name. Dir not exists
+0:114  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\System Product Name-3400. Dir not exists
+0:114  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\P8P67 PRO. Dir not exists
+0:114  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\P8P67 PRO-3400. Dir not exists
+0:114  0:000  set OEMPath by default: EFI\CLOVER
+0:114  0:000  Cannot find AMBO.plist at path: 'EFI\CLOVER\AMBO.plist' or 'EFI\CLOVER\AMBO.plist'
+0:114  0:000  EFI\CLOVER\AMBO.plist not loaded with name from LoadOptions: Not Found
+0:114  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\System Product Name--00-00-00-00-00-00. Dir not exists
+0:114  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\P8P67 PRO\UEFI. Dir not exists
+0:114  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\System Product Name. Dir not exists
+0:114  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\System Product Name-3400. Dir not exists
+0:114  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\P8P67 PRO. Dir not exists
+0:114  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\P8P67 PRO-3400. Dir not exists
+0:114  0:000  set OEMPath by default: EFI\CLOVER
+0:116  0:002  Using config.plist at SelfRootDir at path: EFI\CLOVER\config.plist
+0:116  0:000  EFI\CLOVER\config.plist loaded: Success
+0:116  0:000  === [ GetListOfThemes ] =========================
+0:121  0:004  - [00]: Catalina
+0:130  0:009  - [01]: Catalina4k
+0:138  0:007  - [02]: RANDOM
+0:141  0:002  - [02]: EMBEDDED
+0:143  0:002  === [ Found config plists ] =====================
+0:143  0:000  - config.plist.org.plist
+0:143  0:000  - config.plist
+0:143  0:000  === [ GetEarlyUserSettings ] ====================
+0:143  0:000  timeout set to 3
+0:143  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:336  0:192   get BlueValue=1.200000
+0:344  0:008  KextsToPatch: 5 requested
+0:352  0:008   - [00]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #1 10.15.x by pmheart, daliansky and ydeng) :: MatchOS: 10.15.x :: BinPatch :: data len: 4
+0:399  0:046   - [01]: com.apple.driver.usb.AppleUSBXHCI (USB port limit patch #2 10.15.x by pmheart, daliansky and ydeng) :: MatchOS: 10.15.x :: BinPatch :: data len: 4
+0:439  0:040   - [02]: AppleGraphicsDevicePolicy (Black Screen Patch Vega 56/64, RX580 etc. (c)Pike R. Alpha) :: BinPatch :: data len: 8
+0:472  0:032   - [03]: com.apple.driver.AppleGraphicsDevicePolicy (NoLabel) :: BinPatch :: data len: 5
+0:504  0:032   - [04]: AMD9500Controller (NoLabel) :: BinPatch :: data len: 120
+0:543  0:039  Default theme: Catalina
+0:558  0:014  Hiding entries with string Windows
+0:566  0:008  Hiding entries with string BOOTX64.EFI
+0:574  0:008  Hiding entries with string Legacy HD1
+0:582  0:008  Hiding entries with string Legacy HD2
+0:590  0:008  Hiding entries with string Legacy HD3
+0:599  0:008  Hiding entries with string Legacy HD4
+0:607  0:008  Hiding entries with string Windows 10
+0:615  0:008  Hiding entries with string Preboot
+0:623  0:008  Hiding entries with string VM
+0:638  0:014  === [ LoadDrivers ] =============================
+0:660  0:022  Loading FSInject.efi  status=Success
+0:690  0:029  Loading UsbKbDxe.efi  status=Success
+0:719  0:029   - driver needs connecting
+0:727  0:008  Loading AppleUITheme.efi  status=Success
+0:755  0:027  Loading AppleKeyFeeder.efi  status=Success
+0:783  0:028  Loading SMCHelper.efi  status=Success
+0:812  0:028  Loading CsmVideoDxe.efi  status=Success
+0:841  0:029   - driver needs connecting
+0:852  0:010  Loading AptioInputFix.efi  status=Success
+0:887  0:035  Loading VirtualSmc.efi  status=Success
+1:016  0:129  Loading FirmwareVolume.efi  status=Success
+1:051  0:034  Loading AppleImageCodec.efi  status=Success
+1:080  0:028  Loading Ps2MouseDxe.efi  status=Success
+1:108  0:028   - driver needs connecting
+1:116  0:008  Loading VBoxHfs.efi  status=Success
+1:146  0:029   - driver needs connecting
+1:154  0:008  Loading AppleKeyAggregator.efi  status=Success
+1:183  0:028  Loading DataHubDxe.efi  status=Success
+1:243  0:060  Loading PartitionDxe.efi  status=Success
+1:286  0:042   - driver needs connecting
+1:294  0:008  Loading ApfsDriverLoader.efi  status=Success
+1:322  0:028   - driver needs connecting
+1:330  0:008  Loading AudioDxe.efi  status=Success
+1:361  0:030   - driver needs connecting
+1:369  0:008  Loading UsbMouseDxe.efi  status=Success
+1:398  0:028   - driver needs connecting
+1:406  0:008  Loading AptioMemoryFix.efi  status=Success
+1:436  0:029  8 drivers needs connecting ...
+1:444  0:008  PlatformDriverOverrideProtocol not found. Installing ... Success
+1:466  0:021  Partition driver loaded: 
+1:481  0:015  APFS driver loaded
+1:489  0:007  Video driver loaded: disconnect Success
+1:593  0:104  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+1:623  0:029  CsmVideoDriverBindingStart
+1:637  0:014  mixed support=40010
+1:645  0:008  Controller is [030000]
+1:653  0:007  Check for VBE
+1:693  0:039   found Detail Timing 1280x720
+1:709  0:016    0 1280x960 attr=BB - ok, edid-
+1:733  0:024    1 640x480 attr=BB - ok, edid+, 640x480, working, highest, pref=1
+1:796  0:062    2 800x600 attr=BB - ok, edid-, 800x600, working, highest, pref=2
+1:851  0:054    3 1024x768 attr=BB - ok, edid-, 1024x768, working, highest, pref=3
+1:906  0:054    4 1280x1024 attr=BB - ok, edid-
+1:931  0:025    5 1400x1050 attr=BB - ok, edid-
+1:961  0:029    6 1280x720 attr=BB - ok, edid+, working
+1:994  0:033    7 1920x1080 attr=BB - ok, edid-
+2:017  0:023  CsmVideo: New mode: 3 1024x768 - set
+2:105  0:087   - SetMode pref 3 (3) = Success
+2:119  0:014  CsmVideoCheckForVbe - Success
+2:127  0:008  CsmVideoDriverBindingStart end Success
+2:135  0:008  CsmVideo: New mode: 2 800x600 - blocking that switch
+2:152  0:016  CsmVideo: New mode: 0 1280x960 - blocking that switch
+7:466  5:314  === [ InitScreen ] ==============================
+7:479  0:012  Console modes reported: 3, available modes:
+7:489  0:010   - [01]: 80x25 (current mode)
+7:497  0:008   - [02]: 80x50
+7:505  0:008   - [03]: 100x31
+7:513  0:008  SetScreenResolution: 1920x1080 - setting Mode 7
+7:536  0:022  CsmVideo: New mode: 7 1920x1080 - set
+7:610  0:074  Video mode change to mode #7: Success
+7:618  0:008  SetScreenResolution: 1920x1080 - already set
+7:635  0:016  reinit: self device path=PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000)
+7:643  0:008  new SelfHandle=2323518
+7:657  0:013  === [ GetMacAddress ] ===========================
+7:665  0:008   get legacy LAN MAC, 1 card found
+7:679  0:014  Legacy MAC address of LAN #0= F4:6D:04:40:DB:5A:
+7:746  0:066  === [ ScanSPD ] =================================
+7:754  0:008  Scanning SMBus [8086:1C22], mmio: 0xF7F25004, ioport: 0xF000, hostc: 0x1
+7:782  0:027  Slot: 0 Type 24 8192MB 1600MHz Vendor=Corsair PartNo=CMV8GX3M1A1600C11 SerialNo=00000000
+7:815  0:033  Found module with XMP version 1.3
+7:829  0:014  Slot: 1 Type 24 8192MB 1600MHz Vendor=Corsair PartNo=CMZ8GX3M1A1600C10 SerialNo=00000000
+7:838  0:009  === [ GetAcpiTablesList ] =======================
+7:853  0:014  Get Acpi Tables List from RSDT:
+7:869  0:016   - [00]: FACP  A M I len=132
+7:877  0:008   - [01]: APIC  A M I len=146
+7:885  0:008   - [02]: MCFG  A M I len=60
+7:893  0:008   - [03]: HPET  A M I len=56
+7:901  0:008   - [04]: SSDT  SataTabl len=877
+7:910  0:008   - [05]: SSDT  Cpu0Ist len=2474
+7:918  0:008   - [06]: SSDT  CpuPm len=2706
+7:926  0:008  Calibrated TSC Frequency = 3411125145 = 3411MHz
+7:935  0:008  === [ GetUserSettings ] =========================
+7:950  0:014  USB FixOwnership: no
+7:958  0:008  Dropping 3 tables:
+7:966  0:008   - [00]: Drop table  signature="MATS" (5354414D)
+7:983  0:016  ----
+7:991  0:008           - set table: 5354414D,                0 to drop: no
+8:008  0:016   - [01]: Drop table  signature="SSDT" (54445353)
+8:024  0:016   table-id="CpuPm" (      6D50757043)
+8:032  0:008  ----
+8:041  0:008           - set table: 54445353,       6d50757043 to drop: yes
+8:057  0:016   - [02]: Drop table  signature="SSDT" (54445353)
+8:084  0:026   table-id="Cpu0Ist" (  74734930757043)
+8:092  0:008  ----
+8:101  0:008           - set table: 54445353,   74734930757043 to drop: yes
+8:117  0:016   - final DSDT Fix mask=0000F1D1
+8:125  0:008  PatchesDSDT: 4 requested
+8:134  0:008   - [00]: (rename EUSB to EH01) lenToFind: 4, lenToReplace: 4, Target Bridge: 
+8:175  0:041   - [01]: (rename XHC1 to XHC) lenToFind: 4, lenToReplace: 4, Target Bridge: 
+8:216  0:041   - [02]: (rename EHC2 to EH02) lenToFind: 4, lenToReplace: 4, Target Bridge: 
+8:263  0:046   - [03]: (rename GPRW to XPRW (use with SSDT-GPRW.aml)) lenToFind: 5, lenToReplace: 5, Target Bridge: 
+8:303  0:039    patch disabled at config
+8:311  0:008  Using ProductName from config: iMac18,3
+8:319  0:007  Using latest BiosVersion from config
+8:327  0:008  BiosVersion: IM183.88Z.F000.B00.2006161818
+8:337  0:010  BiosReleaseDate: 06/16/2020
+8:345  0:008  Using latest EfiVersion from config: 428.0.0.0.0
+8:353  0:007  Using FirmwareFeatures from config: 0xFC0FE176
+8:361  0:007  Using FirmwareFeaturesMask from config: 0xFF1FFF7F
+8:377  0:015  Board-ID set from config as Mac-BE088AF8C5EB4FA2
+8:384  0:007  BoardType: 0xA
+8:392  0:007  ChassisType: 0x9
+8:400  0:007  Cannot find smbios.plist at path: 'EFI\CLOVER\smbios.plist' or 'EFI\CLOVER\smbios.plist'
+8:410  0:010  === [ Found DSDT tables ] =======================
+8:488  0:077  === [ ScanVolumes ] =============================
+8:497  0:008  Found 20 volumes with blockIO
+8:504  0:007  - [00]: Volume: PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)
+8:528  0:023  - [01]: Volume: PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000)
+8:546  0:017          Result of bootcode detection: bootable unknown (legacy)
+8:555  0:009          This is SelfVolume !!
+8:563  0:008  - [02]: Volume: PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(2,GPT,FD2AF4BC-CA6B-42B9-94E3-218B42254C3D,0x64028,0x730BFB0)
+8:587  0:023  - [03]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)
+8:611  0:024  - [04]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)
+8:628  0:016  - [05]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)
+8:644  0:016          Result of bootcode detection: bootable unknown (legacy)
+8:660  0:015  - [06]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)
+8:697  0:036          Result of bootcode detection: bootable unknown (legacy)
+8:705  0:008          hiding this volume
+8:713  0:008  - [07]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(3,GPT,A6100BE0-0DC0-4549-98A5-9F3FDD8C63B6,0x1D1F5800,0x1D04E0F9)
+8:730  0:016          Result of bootcode detection: bootable Windows (vista,win)
+8:738  0:008          hiding this volume
+8:752  0:014  - [08]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(4,GPT,D55D663D-B3FC-40D2-97C4-FDAAB7A4A17F,0x3A244000,0x101800)
+8:769  0:016          Result of bootcode detection: bootable Windows (vista,win)
+8:777  0:008          hiding this volume
+8:785  0:008  - [09]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(5,GPT,A5CD8E84-AD44-4D27-993F-3E3879B531BB,0x3A346000,0x8000)
+8:808  0:022  - [10]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)
+8:824  0:016          Result of bootcode detection: bootable Windows (vista,win)
+8:834  0:010  - [11]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(2,GPT,26515CFB-8E8A-4078-A270-EBB885111FA8,0x32800,0x8000)
+8:851  0:016          hiding this volume
+8:859  0:008  - [12]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(3,GPT,4E2FC833-6594-489C-AE42-45170039B825,0x3A800,0x248B8875)
+8:882  0:022          Result of bootcode detection: bootable Windows (vista,win)
+8:890  0:008          hiding this volume
+8:898  0:008  - [13]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(4,GPT,4E6562AC-D51B-4A9B-98A3-F7862485E8AC,0x248F3800,0xFC800)
+8:915  0:016          Result of bootcode detection: bootable Windows (vista,win)
+8:933  0:018          hiding this volume
+8:941  0:008  - [14]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(5,GPT,EABD6D6A-6AE6-4FCB-A4F3-E139F8F248A2,0x249F0000,0x4FD16000)
+8:957  0:015          Result of bootcode detection: bootable unknown (legacy)
+8:965  0:007  - [15]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,51C4864B1BF3C14DB89532CADF843561)
+8:989  0:024          hiding this volume
+8:998  0:008  - [16]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6AA99F6C4F726F4F8E7E3FCB3CA4447D)
+9:020  0:022  - [17]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,CE275796955D114CA7A5C6F45E0B6F20)
+9:055  0:034  - [18]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,512BDA3423F19247ADDA24C511E05849)
+9:071  0:016          hiding this volume
+9:080  0:008  - [19]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)
+9:105  0:025  found 2 handles with audio
+9:114  0:008  No AudioIoDevice stored
+9:122  0:008  no stored audio parameters
+9:130  0:008  Found Audio Device AMD (Unknown) (HDMI) at index 0
+9:138  0:008  Found Audio Device AMD (Unknown) (HDMI) at index 1
+9:146  0:008  Found Audio Device AMD (Unknown) (HDMI) at index 2
+9:160  0:014  Found Audio Device AMD (Unknown) (HDMI) at index 3
+9:168  0:008  Found Audio Device AMD (Unknown) (HDMI) at index 4
+9:177  0:008  Found Audio Device AMD (Unknown) (HDMI) at index 5
+9:185  0:008  Found Audio Device Realtek ALC892 (SPDIF) at index 6
+9:193  0:008  Found Audio Device Realtek ALC892 (LineOut) at index 7
+9:201  0:008  Found Audio Device Realtek ALC892 (LineOut) at index 8
+9:209  0:008  Found Audio Device Realtek ALC892 (LineOut) at index 9
+9:217  0:008  Found Audio Device Realtek ALC892 (LineOut) at index 10
+9:232  0:014  Found Audio Device Realtek ALC892 (Headphones) at index 11
+9:240  0:008  Found Audio Device Realtek ALC892 (SPDIF) at index 12
+9:248  0:008  === [ InitXTheme ] ==============================
+9:256  0:008  use Daylight theme
+9:268  0:011  Using theme 'Catalina' (EFI\CLOVER\themes\Catalina)
+9:276  0:008  chosen theme Catalina
+9:284  0:008  OS main and drive as badge
+9:538  0:254  sound play end with status=Device Error
+9:559  0:020  theme inited
+9:574  0:015  Chosen theme Catalina
+9:583  0:008  after NVRAM boot-args=nvda_drv=1 dart=0 -liludbg -wegdbg
+9:591  0:008  === [ Dump SMC keys from NVRAM ] ================
+9:599  0:008  found AppleSMC protocol
+9:678  0:078  === [ AddCustomEntries ] ========================
+9:692  0:014      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000)) ... skipped because volume does not match
+9:709  0:016      Checking volume "Install macOS Catalina" (PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(2,GPT,FD2AF4BC-CA6B-42B9-94E3-218B42254C3D,0x64028,0x730BFB0)) ... skipped because volume does not match
+9:732  0:022      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)) ... skipped because volume does not match
+9:748  0:016      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)) ... skipped because volume does not match
+9:770  0:022      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,51C4864B1BF3C14DB89532CADF843561)) ... skipped because volume is hidden
+9:786  0:015      Checking volume "Macintosh SSD - Data" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6AA99F6C4F726F4F8E7E3FCB3CA4447D)) ... skipped because volume does not match
+9:810  0:023      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,CE275796955D114CA7A5C6F45E0B6F20)) ... skipped because volume does not match
+9:832  0:022      Checking volume "VM" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,512BDA3423F19247ADDA24C511E05849)) ... skipped because volume is hidden
+9:848  0:016      Checking volume "Macintosh SSD" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)) ... match!
+9:876  0:027      Check if volume Is Hibernated:
+9:884  0:008      Check sleep image 'by signature':
+9:893  0:008      using default sleep image name = \private\var\vm\sleepimage
+9:901  0:008      sleepimage not found -> Not Found
+9:909  0:008      hibernated: no - sign
+9:917  0:008  IconName=cata,mac comma=4 size=8
+9:932  0:014    first=os_cata
+9:943  0:010      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)\System\Library\CoreServices\boot.efi'
+9:951  0:008  Custom settings: .plist will  be applied
+9:960  0:009      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000)) ... skipped because volume does not match
+9:983  0:022      Checking volume "Install macOS Catalina" (PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(2,GPT,FD2AF4BC-CA6B-42B9-94E3-218B42254C3D,0x64028,0x730BFB0)) ... skipped because volume does not match
+10:000  0:016      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)) ... match!
+10:025  0:024  IconName=vista,win comma=5 size=9
+10:033  0:008    first=os_vista
+10:041  0:008      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)\EFI\Microsoft\Boot\bootmgfw.efi'
+10:050  0:008  Custom settings: .plist will  be applied
+10:058  0:008      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)) ... skipped because volume does not match
+10:081  0:022      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,51C4864B1BF3C14DB89532CADF843561)) ... skipped because volume is hidden
+10:098  0:016      Checking volume "Macintosh SSD - Data" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6AA99F6C4F726F4F8E7E3FCB3CA4447D)) ... skipped because volume does not match
+10:119  0:021      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,CE275796955D114CA7A5C6F45E0B6F20)) ... skipped because volume does not match
+10:143  0:023      Checking volume "VM" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,512BDA3423F19247ADDA24C511E05849)) ... skipped because volume is hidden
+10:158  0:015      Checking volume "Macintosh SSD" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)) ... skipped because volume does not match
+10:181  0:022      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000)) ... skipped because volume does not match
+10:200  0:018      Checking volume "Install macOS Catalina" (PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(2,GPT,FD2AF4BC-CA6B-42B9-94E3-218B42254C3D,0x64028,0x730BFB0)) ... skipped because volume does not match
+10:222  0:022      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)) ... skipped because volume does not match
+10:239  0:016      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)) ... match!
+10:262  0:022  IconName=vista,win comma=5 size=9
+10:270  0:008    first=os_vista
+10:278  0:008      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)\EFI\Microsoft\Boot\bootmgfw.efi'
+10:286  0:008  Custom settings: .plist will  be applied
+10:295  0:008      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,51C4864B1BF3C14DB89532CADF843561)) ... skipped because volume is hidden
+10:317  0:022      Checking volume "Macintosh SSD - Data" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6AA99F6C4F726F4F8E7E3FCB3CA4447D)) ... skipped because volume does not match
+10:340  0:022      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,CE275796955D114CA7A5C6F45E0B6F20)) ... skipped because volume does not match
+10:356  0:016      Checking volume "VM" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,512BDA3423F19247ADDA24C511E05849)) ... skipped because volume is hidden
+10:379  0:022      Checking volume "Macintosh SSD" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)) ... skipped because volume does not match
+10:395  0:016  === [ ScanLoader ] ==============================
+10:409  0:014  - [01]: 'EFI'
+10:425  0:015          AddLoaderEntry for Volume Name=EFI
+10:435  0:010       skipped because path `PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000)\EFI\BOOT\BOOTX64.efi` is self path!
+10:443  0:008  - [02]: 'Install macOS Catalina'
+10:463  0:019          AddLoaderEntry for Volume Name=Install macOS Catalina
+10:477  0:014  IconName=cata,mac comma=4 size=8
+10:485  0:008    first=os_cata
+10:501  0:015      Loader entry created for 'PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(2,GPT,FD2AF4BC-CA6B-42B9-94E3-218B42254C3D,0x64028,0x730BFB0)\System\Library\CoreServices\boot.efi'
+10:510  0:008  - [05]: 'EFI'
+10:525  0:015          AddLoaderEntry for Volume Name=EFI
+10:533  0:007       skipped because path `PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)\EFI\microsoft\Boot\bootmgfw.efi` already exists for another entry!
+10:551  0:017          AddLoaderEntry for Volume Name=EFI
+10:559  0:008  IconName=unknown comma=-1 size=7
+10:568  0:008    Full=unknown
+10:576  0:008      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)\EFI\BOOT\BOOTX64.efi'
+10:584  0:008          hiding entry: \EFI\BOOT\BOOTX64.efi
+10:593  0:008  - [10]: 'EFI'
+10:609  0:016          AddLoaderEntry for Volume Name=EFI
+10:623  0:014       skipped because path `PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)\EFI\microsoft\Boot\bootmgfw.efi` already exists for another entry!
+10:647  0:023          AddLoaderEntry for Volume Name=EFI
+10:662  0:014  IconName=unknown comma=-1 size=7
+10:670  0:008    Full=unknown
+10:678  0:008      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)\EFI\BOOT\BOOTX64.efi'
+10:694  0:015          hiding entry: \EFI\BOOT\BOOTX64.efi
+10:702  0:008  - [15]: 'Preboot'
+10:720  0:018          AddLoaderEntry for Volume Name=Preboot
+10:729  0:008      Check if volume Is Hibernated:
+10:737  0:008      Check sleep image 'by signature':
+10:745  0:008      using default sleep image name = \private\var\vm\sleepimage
+10:754  0:008      sleepimage not found -> Not Found
+10:768  0:014      hibernated: no - sign
+10:776  0:008  IconName=cata,mac comma=4 size=8
+10:785  0:008    first=os_cata
+10:793  0:008      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,51C4864B1BF3C14DB89532CADF843561)\0875EB4D-AC2F-47B3-AED7-A4BEA921BE44\System\Library\CoreServices\boot.efi'
+10:802  0:009  - [16]: 'Macintosh SSD - Data'
+10:826  0:023  - [17]: 'Recovery'
+10:842  0:016          AddLoaderEntry for Volume Name=Recovery
+10:862  0:019  IconName=cata,mac comma=4 size=8
+10:870  0:008    first=os_cata
+10:878  0:008      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,CE275796955D114CA7A5C6F45E0B6F20)\0875EB4D-AC2F-47B3-AED7-A4BEA921BE44\boot.efi'
+10:894  0:015  - [18]: 'VM'
+10:910  0:016  - [19]: 'Macintosh SSD'
+10:942  0:031          AddLoaderEntry for Volume Name=Macintosh SSD
+10:950  0:008       skipped because path `PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)\System\Library\CoreServices\boot.efi` already exists for another entry!
+10:958  0:008  Scanning legacy ...
+10:973  0:014   hidden
+10:980  0:007   hidden
+10:988  0:007  IconName=vista,win comma=5 size=9
+10:996  0:007    first=os_vista
+11:004  0:008   hidden
+11:012  0:007   hidden
+11:020  0:007  === [ AddCustomTool ] ===========================
+11:031  0:011  === [ GetEfiBootDeviceFromNvram ] ===============
+11:040  0:008   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)
+11:055  0:015    - Volume: 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)'
+11:063  0:008    - LoaderPath: ''
+11:071  0:007    - Guid = CF18A592-8086-44D2-AF34-5A88AEE9E019
+11:079  0:007  === [ FindStartupDiskVolume ] ===================
+11:093  0:014    - Volume: partition = PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)
+11:101  0:008     - searching for that partition
+11:109  0:008      - found entry 0. 'Boot OS X from Macintosh SSD', Volume 'Macintosh SSD'
+11:118  0:008  Boot redirected to Entry 0. 'Boot OS X from Macintosh SSD'
+11:126  0:008  BannerPlace at Clear Screen [928,288]
+11:313  0:187  AnimeRun=0
+12:137  0:823  GUI ready
+22:773  10:635  AnimeRun=0
+29:573  6:800  AnimeRun=0
+34:598  5:025  AnimeRun=0
+35:558  0:959  AnimeRun=0
+36:298  0:740  AnimeRun=0
+37:339  1:041  ReinitSelfLib after theme change
+37:351  0:011  reinit: self device path=PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000)
+37:359  0:008  new SelfHandle=2323518
+37:369  0:009  === [ ScanVolumes ] =============================
+37:392  0:023  Found 20 volumes with blockIO
+37:401  0:008  - [00]: Volume: PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)
+37:419  0:018  - [01]: Volume: PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000)
+37:437  0:018          Result of bootcode detection: bootable unknown (legacy)
+37:447  0:009          This is SelfVolume !!
+37:455  0:008  - [02]: Volume: PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(2,GPT,FD2AF4BC-CA6B-42B9-94E3-218B42254C3D,0x64028,0x730BFB0)
+37:480  0:024  - [03]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)
+37:497  0:016  - [04]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)
+37:513  0:016  - [05]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)
+37:530  0:016          Result of bootcode detection: bootable unknown (legacy)
+37:545  0:014  - [06]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)
+37:561  0:016          Result of bootcode detection: bootable unknown (legacy)
+37:569  0:008          hiding this volume
+37:578  0:008  - [07]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(3,GPT,A6100BE0-0DC0-4549-98A5-9F3FDD8C63B6,0x1D1F5800,0x1D04E0F9)
+37:607  0:029          Result of bootcode detection: bootable Windows (vista,win)
+37:619  0:011          hiding this volume
+37:627  0:008  - [08]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(4,GPT,D55D663D-B3FC-40D2-97C4-FDAAB7A4A17F,0x3A244000,0x101800)
+37:644  0:016          Result of bootcode detection: bootable Windows (vista,win)
+37:652  0:008          hiding this volume
+37:661  0:008  - [09]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(5,GPT,A5CD8E84-AD44-4D27-993F-3E3879B531BB,0x3A346000,0x8000)
+37:684  0:023  - [10]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)
+37:703  0:019          Result of bootcode detection: bootable Windows (vista,win)
+37:712  0:008  - [11]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(2,GPT,26515CFB-8E8A-4078-A270-EBB885111FA8,0x32800,0x8000)
+37:735  0:023          hiding this volume
+37:743  0:007  - [12]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(3,GPT,4E2FC833-6594-489C-AE42-45170039B825,0x3A800,0x248B8875)
+37:759  0:015          Result of bootcode detection: bootable Windows (vista,win)
+37:767  0:007          hiding this volume
+37:775  0:007  - [13]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(4,GPT,4E6562AC-D51B-4A9B-98A3-F7862485E8AC,0x248F3800,0xFC800)
+37:798  0:023          Result of bootcode detection: bootable Windows (vista,win)
+37:806  0:008          hiding this volume
+37:814  0:007  - [14]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(5,GPT,EABD6D6A-6AE6-4FCB-A4F3-E139F8F248A2,0x249F0000,0x4FD16000)
+37:830  0:015          Result of bootcode detection: bootable unknown (legacy)
+37:838  0:007  - [15]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,51C4864B1BF3C14DB89532CADF843561)
+37:863  0:025          hiding this volume
+37:872  0:008  - [16]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6AA99F6C4F726F4F8E7E3FCB3CA4447D)
+37:895  0:023  - [17]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,CE275796955D114CA7A5C6F45E0B6F20)
+37:912  0:016  - [18]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,512BDA3423F19247ADDA24C511E05849)
+37:935  0:022          hiding this volume
+37:943  0:008  - [19]: Volume: PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)
+37:960  0:016  found 2 handles with audio
+37:968  0:008  No AudioIoDevice stored
+37:976  0:008  no stored audio parameters
+37:985  0:008  Found Audio Device AMD (Unknown) (HDMI) at index 0
+37:999  0:014  Found Audio Device AMD (Unknown) (HDMI) at index 1
+38:007  0:008  Found Audio Device AMD (Unknown) (HDMI) at index 2
+38:015  0:008  Found Audio Device AMD (Unknown) (HDMI) at index 3
+38:023  0:008  Found Audio Device AMD (Unknown) (HDMI) at index 4
+38:032  0:008  Found Audio Device AMD (Unknown) (HDMI) at index 5
+38:040  0:008  Found Audio Device Realtek ALC892 (SPDIF) at index 6
+38:048  0:008  Found Audio Device Realtek ALC892 (LineOut) at index 7
+38:062  0:014  Found Audio Device Realtek ALC892 (LineOut) at index 8
+38:071  0:008  Found Audio Device Realtek ALC892 (LineOut) at index 9
+38:079  0:008  Found Audio Device Realtek ALC892 (LineOut) at index 10
+38:087  0:008  Found Audio Device Realtek ALC892 (Headphones) at index 11
+38:095  0:008  Found Audio Device Realtek ALC892 (SPDIF) at index 12
+38:103  0:008  theme inited
+38:114  0:010  Chosen theme Catalina
+38:123  0:008  after NVRAM boot-args=nvda_drv=1 dart=0 -liludbg -wegdbg
+38:137  0:014  === [ AddCustomEntries ] ========================
+38:145  0:008      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000)) ... skipped because volume does not match
+38:162  0:016      Checking volume "Install macOS Catalina" (PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(2,GPT,FD2AF4BC-CA6B-42B9-94E3-218B42254C3D,0x64028,0x730BFB0)) ... skipped because volume does not match
+38:178  0:016      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)) ... skipped because volume does not match
+38:200  0:021      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)) ... skipped because volume does not match
+38:216  0:015      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,51C4864B1BF3C14DB89532CADF843561)) ... skipped because volume is hidden
+38:239  0:023      Checking volume "Macintosh SSD - Data" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6AA99F6C4F726F4F8E7E3FCB3CA4447D)) ... skipped because volume does not match
+38:262  0:022      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,CE275796955D114CA7A5C6F45E0B6F20)) ... skipped because volume does not match
+38:278  0:016      Checking volume "VM" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,512BDA3423F19247ADDA24C511E05849)) ... skipped because volume is hidden
+38:301  0:022      Checking volume "Macintosh SSD" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)) ... match!
+38:317  0:016      Check if volume Is Hibernated:
+38:331  0:013      Check sleep image 'by signature':
+38:339  0:008      using default sleep image name = \private\var\vm\sleepimage
+38:347  0:008      sleepimage not found -> Not Found
+38:357  0:010      hibernated: no - sign
+38:366  0:008  IconName=cata,mac comma=4 size=8
+38:374  0:008    first=os_cata
+38:382  0:008      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)\System\Library\CoreServices\boot.efi'
+38:397  0:014  Custom settings: .plist will  be applied
+38:406  0:009      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000)) ... skipped because volume does not match
+38:422  0:016      Checking volume "Install macOS Catalina" (PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(2,GPT,FD2AF4BC-CA6B-42B9-94E3-218B42254C3D,0x64028,0x730BFB0)) ... skipped because volume does not match
+38:445  0:022      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)) ... match!
+38:461  0:016  IconName=vista,win comma=5 size=9
+38:469  0:008    first=os_vista
+38:478  0:008      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)\EFI\Microsoft\Boot\bootmgfw.efi'
+38:492  0:014  Custom settings: .plist will  be applied
+38:501  0:008      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)) ... skipped because volume does not match
+38:517  0:016      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,51C4864B1BF3C14DB89532CADF843561)) ... skipped because volume is hidden
+38:539  0:022      Checking volume "Macintosh SSD - Data" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6AA99F6C4F726F4F8E7E3FCB3CA4447D)) ... skipped because volume does not match
+38:562  0:023      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,CE275796955D114CA7A5C6F45E0B6F20)) ... skipped because volume does not match
+38:578  0:015      Checking volume "VM" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,512BDA3423F19247ADDA24C511E05849)) ... skipped because volume is hidden
+38:603  0:024      Checking volume "Macintosh SSD" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)) ... skipped because volume does not match
+38:620  0:016      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000)) ... skipped because volume does not match
+38:642  0:022      Checking volume "Install macOS Catalina" (PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(2,GPT,FD2AF4BC-CA6B-42B9-94E3-218B42254C3D,0x64028,0x730BFB0)) ... skipped because volume does not match
+38:658  0:016      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)) ... skipped because volume does not match
+38:681  0:022      Checking volume "EFI" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)) ... match!
+38:698  0:017  IconName=vista,win comma=5 size=9
+38:707  0:008    first=os_vista
+38:715  0:008      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)\EFI\Microsoft\Boot\bootmgfw.efi'
+38:730  0:014  Custom settings: .plist will  be applied
+38:738  0:008      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,51C4864B1BF3C14DB89532CADF843561)) ... skipped because volume is hidden
+38:762  0:023      Checking volume "Macintosh SSD - Data" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6AA99F6C4F726F4F8E7E3FCB3CA4447D)) ... skipped because volume does not match
+38:778  0:016      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,CE275796955D114CA7A5C6F45E0B6F20)) ... skipped because volume does not match
+38:801  0:022      Checking volume "VM" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,512BDA3423F19247ADDA24C511E05849)) ... skipped because volume is hidden
+38:818  0:016      Checking volume "Macintosh SSD" (PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)) ... skipped because volume does not match
+38:840  0:022  === [ ScanLoader ] ==============================
+38:850  0:010  - [01]: 'EFI'
+38:866  0:015          AddLoaderEntry for Volume Name=EFI
+38:874  0:007       skipped because path `PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(1,GPT,5F1F821F-AB61-4C76-8264-0E6FC958DFCD,0x28,0x64000)\EFI\BOOT\BOOTX64.efi` is self path!
+38:890  0:015  - [02]: 'Install macOS Catalina'
+38:905  0:015          AddLoaderEntry for Volume Name=Install macOS Catalina
+38:913  0:007  IconName=cata,mac comma=4 size=8
+38:921  0:007    first=os_cata
+38:929  0:007      Loader entry created for 'PciRoot(0x0)\Pci(0x1A,0x0)\USB(0x1,0x0)\USB(0x2,0x0)\HD(2,GPT,FD2AF4BC-CA6B-42B9-94E3-218B42254C3D,0x64028,0x730BFB0)\System\Library\CoreServices\boot.efi'
+38:944  0:015  - [05]: 'EFI'
+38:961  0:016          AddLoaderEntry for Volume Name=EFI
+38:969  0:008       skipped because path `PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)\EFI\microsoft\Boot\bootmgfw.efi` already exists for another entry!
+38:977  0:008          AddLoaderEntry for Volume Name=EFI
+38:986  0:008  IconName=unknown comma=-1 size=7
+38:994  0:008    Full=unknown
+39:002  0:008      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(1,GPT,7E16345C-962F-43F7-A410-50A5B84EC460,0x28,0x64000)\EFI\BOOT\BOOTX64.efi'
+39:016  0:014          hiding entry: \EFI\BOOT\BOOTX64.efi
+39:025  0:008  - [10]: 'EFI'
+39:041  0:016          AddLoaderEntry for Volume Name=EFI
+39:049  0:008       skipped because path `PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)\EFI\microsoft\Boot\bootmgfw.efi` already exists for another entry!
+39:064  0:014          AddLoaderEntry for Volume Name=EFI
+39:072  0:008  IconName=unknown comma=-1 size=7
+39:080  0:008    Full=unknown
+39:088  0:008      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,81)\HD(1,GPT,0F24AF1D-6ED4-43D6-8BC4-08BC09AAFABD,0x800,0x32000)\EFI\BOOT\BOOTX64.efi'
+39:099  0:010          hiding entry: \EFI\BOOT\BOOTX64.efi
+39:108  0:008  - [15]: 'Preboot'
+39:129  0:021          AddLoaderEntry for Volume Name=Preboot
+39:138  0:008      Check if volume Is Hibernated:
+39:146  0:008      Check sleep image 'by signature':
+39:154  0:008      using default sleep image name = \private\var\vm\sleepimage
+39:162  0:008      sleepimage not found -> Not Found
+39:170  0:008      hibernated: no - sign
+39:178  0:008  IconName=cata,mac comma=4 size=8
+39:186  0:008    first=os_cata
+39:195  0:008      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,51C4864B1BF3C14DB89532CADF843561)\0875EB4D-AC2F-47B3-AED7-A4BEA921BE44\System\Library\CoreServices\boot.efi'
+39:210  0:015  - [16]: 'Macintosh SSD - Data'
+39:227  0:016  - [17]: 'Recovery'
+39:243  0:016          AddLoaderEntry for Volume Name=Recovery
+39:252  0:008  IconName=cata,mac comma=4 size=8
+39:260  0:008    first=os_cata
+39:275  0:014      Loader entry created for 'PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,CE275796955D114CA7A5C6F45E0B6F20)\0875EB4D-AC2F-47B3-AED7-A4BEA921BE44\boot.efi'
+39:284  0:009  - [18]: 'VM'
+39:300  0:016  - [19]: 'Macintosh SSD'
+39:317  0:016          AddLoaderEntry for Volume Name=Macintosh SSD
+39:325  0:008       skipped because path `PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)\System\Library\CoreServices\boot.efi` already exists for another entry!
+39:339  0:014  Scanning legacy ...
+39:349  0:010   hidden
+39:357  0:008   hidden
+39:365  0:007  IconName=vista,win comma=5 size=9
+39:373  0:007    first=os_vista
+39:381  0:008   hidden
+39:389  0:007   hidden
+39:405  0:015  === [ AddCustomTool ] ===========================
+39:413  0:008  === [ GetEfiBootDeviceFromNvram ] ===============
+39:421  0:007  === [ FindStartupDiskVolume ] ===================
+39:428  0:007    - Volume: partition = PciRoot(0x0)\Pci(0x1C,0x7)\Pci(0x0,0x0)\VenHw(CF31FAC5-C24E-11D2-85F3-00A0C93EC93B,80)\HD(2,GPT,CF18A592-8086-44D2-AF34-5A88AEE9E019,0x64028,0x1D1917D8)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4DEB75082FACB347AED7A4BEA921BE44)
+39:436  0:007     - searching for that partition
+39:450  0:014      - found entry 0. 'Boot OS X from Macintosh SSD', Volume 'Macintosh SSD'
+39:459  0:008  Boot redirected to Entry 0. 'Boot OS X from Macintosh SSD'
+39:467  0:008  AnimeRun=0
+44:358  4:891  AnimeRun=0
+45:678  1:319  Found BIOS RSDP at %p
+45:693  0:014  Printing ACPI tables from RSDP %p ...
+45:702  0:008   %p: 'RSD PTR £ALASKA(P8ß$', Rev: 17818631 (Acpi 2.0 or newer), Len: 36
+45:735  0:033    (Xsdt: %p, Rsdt: %p)
+45:743  0:008    %p: 'XSDT\', 'XSDT', Rev: 17818423, Len: 1
+45:774  0:031    %p: 'RSDT@', 'RSDT', Rev: 17818423, Len: 1
+45:799  0:024    Tables in Xsdt: 7
+45:807  0:008    0. %p: 'FACPô', 'FACP', Rev: 17818423, Len: 4
+45:832  0:025        (Dsdt: DF385168, Facs: DF3BEF80, XDsdt: df385168, XFacs: 0)
+45:857  0:024        %p: 'DSDTS»', 'DSDT', Rev: 17818263, Len: 2
+45:882  0:024        %p: 'FACS@', Ver: 17818459, Len: 2
+45:898  0:016    1. %p: 'APIC’', 'APIC', Rev: 17818423, Len: 3
+45:922  0:024    2. %p: 'MCFG<', 'MCFG', Rev: 17818423, Len: 1
+45:949  0:026    3. %p: 'HPET8', 'HPET', Rev: 17818423, Len: 1
+45:979  0:029    4. %p: 'SSDTm', 'SSDT', Rev: 17818423, Len: 1
+46:003  0:024    5. %p: 'SSDTª	', 'SSDT', Rev: 17818423, Len: 1
+46:027  0:024    6. %p: 'SSDT’
+46:036  0:008  ', 'SSDT', Rev: 17818423, Len: 1
+46:052  0:016    Tables in Rsdt: 7
+46:060  0:008    0. %p: 'FACP„', 'FACP', Rev: 17818423, Len: 2
+46:085  0:024        (Dsdt: DF385168, Facs: DF3BEF40)
+46:101  0:016        %p: 'DSDTS»', 'DSDT', Rev: 17818263, Len: 2
+46:126  0:025        %p: 'FACS@', Ver: 17818459, Len: 0
+46:149  0:022    1. %p: 'APIC’', 'APIC', Rev: 17818423, Len: 3
+46:173  0:024    2. %p: 'MCFG<', 'MCFG', Rev: 17818423, Len: 1
+46:200  0:026    3. %p: 'HPET8', 'HPET', Rev: 17818423, Len: 1
+46:224  0:024    4. %p: 'SSDTm', 'SSDT', Rev: 17818423, Len: 1
+46:249  0:024    5. %p: 'SSDTª	', 'SSDT', Rev: 17818423, Len: 1
+46:273  0:024    6. %p: 'SSDT’
+46:281  0:008  ', 'SSDT', Rev: 17818423, Len: 1
+46:298  0:016  Found UEFI Acpi 2.0 RSDP at %p
+46:306  0:008  Saving ACPI tables from RSDP %p to å’â„å‘â’ä†£ä…Œä­“Éå€¨$ ...
+46:320  0:014   %p: 'RSD PTR £ALASKA(P8ß$', Rev: 17818631 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+46:375  0:054    (Xsdt: %p, Rsdt: %p)
+46:383  0:008    %p: 'XSDT\', 'XSDT', Rev: 17818423, Len: 1 -> XSDT.aml
+46:426  0:043    %p: 'RSDT@', 'RSDT', Rev: 17818423, Len: 1 -> RSDT.aml
+46:475  0:048    Tables in Xsdt: 7
+46:483  0:008    0. %p: 'FACPô', 'FACP', Rev: 17818423, Len: 4 -> FACP.aml
+46:527  0:043        (Dsdt: DF385168, Facs: DF3BEF80, XDsdt: df385168, XFacs: 0)
+46:556  0:029        %p: 'DSDTS»', 'DSDT', Rev: 17818263, Len: 2 -> DSDT.aml
+46:618  0:062        %p: 'FACS@', Ver: 17818459, Len: 2 -> FACS.aml
+46:655  0:036    1. %p: 'APIC’', 'APIC', Rev: 17818423, Len: 3 -> APIC.aml
+46:711  0:056    2. %p: 'MCFG<', 'MCFG', Rev: 17818423, Len: 1 -> MCFG.aml
+46:755  0:044    3. %p: 'HPET8', 'HPET', Rev: 17818423, Len: 1 -> HPET.aml
+46:799  0:044    4. %p: 'SSDTm', 'SSDT', Rev: 17818423, Len: 1 -> SSDT-0-SataTabl.aml
+46:843  0:043    5. %p: 'SSDTª	', 'SSDT', Rev: 17818423, Len: 1 -> SSDT-1-Cpu0Ist.aml
+46:898  0:054    6. %p: 'SSDT’
+46:905  0:007  ', 'SSDT', Rev: 17818423, Len: 1 -> SSDT-2-CpuPm.aml (Found hidden SSDT 4 pcs)
+46:944  0:039        * 28524568: 'SSDT', 'CpuPm', Rev: 1, Len: 2706  53 53 44 54 92 0A 00 00 01 7B 50 6D 52 65 66 00 Internal length = 2706 -> SSDT-x2_0-CpuPm.aml
+47:117  0:172        * 3742296728: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 76 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x2_1-ApIst.aml
+47:299  0:181        * 3742289944: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 D8 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-x2_2-Cpu0Cst.aml
+47:478  0:178        * 3742301208: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_3-ApCst.aml
+47:655  0:177  
+47:663  0:008    Tables in Rsdt: 7
+47:672  0:008    0. %p: 'FACP„', 'FACP', Rev: 17818423, Len: 2 -> RSDT-FACP.aml
+47:717  0:045        (Dsdt: DF385168, Facs: DF3BEF40)
+47:742  0:025        %p: 'DSDTS»', 'DSDT', Rev: 17818263, Len: 2
+47:768  0:025        %p: 'FACS@', Ver: 17818459, Len: 0 -> RSDT-FACS.aml
+47:804  0:036    1. %p: 'APIC’', 'APIC', Rev: 17818423, Len: 3
+47:828  0:024    2. %p: 'MCFG<', 'MCFG', Rev: 17818423, Len: 1
+47:853  0:024    3. %p: 'HPET8', 'HPET', Rev: 17818423, Len: 1
+47:877  0:024    4. %p: 'SSDTm', 'SSDT', Rev: 17818423, Len: 1
+47:905  0:027    5. %p: 'SSDTª	', 'SSDT', Rev: 17818423, Len: 1
+47:929  0:024    6. %p: 'SSDT’
+47:938  0:008  ', 'SSDT', Rev: 17818423, Len: 1
+47:962  0:024  Found UEFI Acpi 1.0 RSDP at %p
+47:970  0:007  Printing ACPI tables from RSDP %p ...
+47:977  0:007   %p: 'RSD PTR £ALASKA(P8ß$', Rev: 17818631 (Acpi 2.0 or newer), Len: 36
+48:009  0:031    (Xsdt: %p, Rsdt: %p)
+48:017  0:007    %p: 'XSDT\', 'XSDT', Rev: 17818423, Len: 1
+48:040  0:023    %p: 'RSDT@', 'RSDT', Rev: 17818423, Len: 1
+48:063  0:023    Tables in Xsdt: 7
+48:071  0:007    0. %p: 'FACPô', 'FACP', Rev: 17818423, Len: 4
+48:095  0:023        (Dsdt: DF385168, Facs: DF3BEF80, XDsdt: df385168, XFacs: 0)
+48:126  0:031        %p: 'DSDTS»', 'DSDT', Rev: 17818263, Len: 2
+48:152  0:026        %p: 'FACS@', Ver: 17818459, Len: 2
+48:168  0:015    1. %p: 'APIC’', 'APIC', Rev: 17818423, Len: 3
+48:192  0:023    2. %p: 'MCFG<', 'MCFG', Rev: 17818423, Len: 1
+48:215  0:023    3. %p: 'HPET8', 'HPET', Rev: 17818423, Len: 1
+48:239  0:023    4. %p: 'SSDTm', 'SSDT', Rev: 17818423, Len: 1
+48:262  0:023    5. %p: 'SSDTª	', 'SSDT', Rev: 17818423, Len: 1
+48:293  0:030    6. %p: 'SSDT’
+48:301  0:008  ', 'SSDT', Rev: 17818423, Len: 1
+48:317  0:016    Tables in Rsdt: 7
+48:325  0:008    0. %p: 'FACP„', 'FACP', Rev: 17818423, Len: 2
+48:350  0:024        (Dsdt: DF385168, Facs: DF3BEF40)
+48:366  0:016        %p: 'DSDTS»', 'DSDT', Rev: 17818263, Len: 2
+48:394  0:027        %p: 'FACS@', Ver: 17818459, Len: 0
+48:410  0:016    1. %p: 'APIC’', 'APIC', Rev: 17818423, Len: 3
+48:435  0:024    2. %p: 'MCFG<', 'MCFG', Rev: 17818423, Len: 1
+48:459  0:024    3. %p: 'HPET8', 'HPET', Rev: 17818423, Len: 1
+48:490  0:030    4. %p: 'SSDTm', 'SSDT', Rev: 17818423, Len: 1
+48:514  0:024    5. %p: 'SSDTª	', 'SSDT', Rev: 17818423, Len: 1
+48:539  0:024    6. %p: 'SSDT’
+48:547  0:008  ', 'SSDT', Rev: 17818423, Len: 1
+53:213  4:665  AnimeRun=0
+54:533  1:319  === [ FixBiosDsdt ] =============================
+54:548  0:014  Patching DSDT:
+54:556  0:008   - [rename EUSB to EH01]: pattern 45555342, patched at: [ (4BF1) ]
+54:598  0:041   - [rename XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+54:633  0:034   - [rename EHC2 to EH02]: pattern 45484332, patched at: [ (57AE) ]
+54:673  0:040   - [rename GPRW to XPRW (use with SSDT-GPRW.aml)]: disabled
+54:690  0:016    0 replacements
+54:699  0:009  found PIC had IRQNoFlag will move -3 bytes
+54:707  0:008  Start HPET Fix
+54:716  0:008  Start Display0 Fix
+54:724  0:008  Found internal video device FFFF@4AF6, unusable
+54:732  0:008  Skipping Method(_DSM) for 1002 card
+54:740  0:008  patch Display #0 of Vendor=0x1002
+54:755  0:014  patch LAN0 in DSDT 
+54:764  0:009  NewName HDEF already present, renaming impossible
+54:804  0:039  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-f1d1.aml
+58:053  3:249  AnimeRun=0
+81:214  23:160  AnimeRun=0
+85:894  4:680   get MainChosenEntry FlagsBits = 0x3
+85:905  0:011   boot with args: nvda_drv=1 dart=0 -liludbg -wegdbg -v
+85:914  0:009  BootVariable of the entry is empty
+85:922  0:008  === [ StartLoader ] =============================
+85:931  0:008  Finally: ExternalClock=26MHz BusSpeed=100328kHz CPUFreq=3411MHz PIS: hw.busfrequency=104000000Hz
+85:961  0:030  start loader
+85:969  0:008  Loading boot.efi  status=Success
+86:098  0:128  GetOSVersion: 10.15.6 (19G2021)
+86:120  0:022  Filtering KextPatches:
+86:128  0:008   - [00]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #1 10.15.x by pmheart, daliansky and ydeng) :: BinPatch :: [OS: 10.15.6 | MatchOS: 10.15.x | MatchBuild: All] ==> allowed
+86:145  0:016   - [01]: com.apple.driver.usb.AppleUSBXHCI (USB port limit patch #2 10.15.x by pmheart, daliansky and ydeng) :: BinPatch :: [OS: 10.15.6 | MatchOS: 10.15.x | MatchBuild: All] ==> allowed
+86:167  0:022   - [02]: AppleGraphicsDevicePolicy (Black Screen Patch Vega 56/64, RX580 etc. (c)Pike R. Alpha) :: BinPatch :: [OS: 10.15.6 | MatchOS: All | MatchBuild: All] ==> allowed
+86:183  0:016   - [03]: com.apple.driver.AppleGraphicsDevicePolicy (NoLabel) :: BinPatch :: [OS: 10.15.6 | MatchOS: All | MatchBuild: All] ==> allowed
+86:199  0:016   - [04]: AMD9500Controller (NoLabel) :: BinPatch :: [OS: 10.15.6 | MatchOS: All | MatchBuild: All] ==> allowed
+86:221  0:022  Will not patch boot.efi
+86:230  0:008  === [ PatchSmbios ] =============================
+86:238  0:008  insert table 9 for dev 0:0
+86:246  0:008  insert table 9 for dev 0:1
+86:254  0:008  insert table 9 for dev 19:0
+86:262  0:008  insert table 9 for dev 0:0
+86:270  0:008  Table 11 present, but rewritten for us
+86:280  0:009  Trusting SMBIOS...
+86:288  0:008  Channels: 1
+86:296  0:008  Interleave: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+86:520  0:224  trusted SMBIOS data:
+86:528  0:008  SmbiosTable.Type17->Vendor = 029E
+86:536  0:008  SmbiosTable.Type17->SerialNumber = 00000000
+86:544  0:008  SmbiosTable.Type17->PartNumber = CMV8GX3M1A1600C11 
+86:552  0:008   partNum=CMV8GX3M1A1600C11 
+86:560  0:008  SPD data in use:
+86:568  0:008  SmbiosTable.Type17->Vendor = Corsair
+86:577  0:008  SmbiosTable.Type17->SerialNumber = 00000000
+86:585  0:008  SmbiosTable.Type17->PartNumber = CMV8GX3M1A1600C11
+86:599  0:014  SMBIOS Type 17 Index = 0 => 0 0:
+86:607  0:008  BANK 0 DIMM0 1600MHz 8192MB(Ext:1296910660MB)
+86:618  0:010  trusted SMBIOS data:
+86:626  0:008  SmbiosTable.Type17->Vendor = 029E
+86:635  0:008  SmbiosTable.Type17->SerialNumber = 00000000
+86:643  0:008  SmbiosTable.Type17->PartNumber = CMZ8GX3M1A1600C10 
+86:651  0:008   partNum=CMZ8GX3M1A1600C10 
+86:659  0:008  SPD data in use:
+86:667  0:008  SmbiosTable.Type17->Vendor = Corsair
+86:675  0:008  SmbiosTable.Type17->SerialNumber = 00000000
+86:689  0:013  SmbiosTable.Type17->PartNumber = CMZ8GX3M1A1600C10
+86:698  0:008  SMBIOS Type 17 Index = 1 => 1 1:
+86:706  0:007  BANK 0 DIMM1 1600MHz 8192MB(Ext:1296910660MB)
+86:713  0:007  SMBIOS Type 17 Index = 2 => 2 2:
+86:721  0:007  BANK 0 DIMM2 EMPTY
+86:729  0:007  SMBIOS Type 17 Index = 3 => 3 3:
+86:737  0:007  BANK 0 DIMM3 EMPTY
+86:745  0:007  mTotalSystemMemory = 16384
+86:753  0:007  NumberOfMemoryDevices = 4
+86:760  0:007  Type20[0]->End = 0x7FFFFF, Type17[0] = 2000
+86:775  0:014  Type20[1]->End = 0xFFFFFF, Type17[1] = 6000
+86:784  0:008  === [ PatchACPI ] ===============================
+86:791  0:007  Xsdt reallocation done
+86:799  0:007  old FADT length=F4
+86:807  0:007   SignatureFixup: 0x2402 -> 0x0
+86:815  0:007  Apply DsdtFixMask=0x0000F1D1
+86:823  0:007  === [ FixBiosDsdt ] =============================
+86:831  0:008  Patching DSDT:
+86:839  0:007   - [rename EUSB to EH01]: pattern 45555342, patched at: [ (4BF1) ]
+86:880  0:041   - [rename XHC1 to XHC]: pattern 58484331, bin not found / already patched!
+86:911  0:030   - [rename EHC2 to EH02]: pattern 45484332, patched at: [ (57AE) ]
+86:951  0:040   - [rename GPRW to XPRW (use with SSDT-GPRW.aml)]: disabled
+86:968  0:016    0 replacements
+86:976  0:008  found PIC had IRQNoFlag will move -3 bytes
+86:984  0:008  Start HPET Fix
+86:993  0:008  Start Display0 Fix
+87:001  0:008  Found internal video device FFFF@4AF6, unusable
+87:010  0:008  Skipping Method(_DSM) for 1002 card
+87:018  0:008  patch Display #0 of Vendor=0x1002
+87:032  0:014  patch LAN0 in DSDT 
+87:040  0:008  patch LAN0 in DSDT 
+87:050  0:009  NewName HDEF already present, renaming impossible
+87:058  0:008  PreCleanup XSDT: count=7, length=92
+87:067  0:008  PreCleanup XSDT, corrected XSDT: count=7, length=92
+87:075  0:008  === [ ACPIDropTables ] ==========================
+87:083  0:008  Drop tables from XSDT, SIGN=SSDT TableID=CpuPm Length=2706
+87:091  0:008   Table[6]: SSDT  CpuPm  2706 dropped
+87:099  0:008  Drop tables from XSDT, SIGN=SSDT TableID=Cpu0Ist Length=2474
+87:117  0:017   Table[5]: SSDT  Cpu0Ist  2474 dropped
+87:125  0:008  Patching SSDTs: 4 patches each
+87:133  0:008   pattern 45555342, bin not found / already patched!
+87:149  0:016   pattern 58484331, bin not found / already patched!
+87:166  0:016   pattern 45484332, bin not found / already patched!
+87:182  0:016    0 replacements
+87:190  0:008  === [ ACPIPatchedAML ] ==========================
+87:198  0:008  Unsorted
+87:206  0:008  Inserting SSDT-EC-USBX.aml from EFI\CLOVER\ACPI\patched: size=349 ... Success
+87:240  0:033  Inserting SSDT-PLUG.aml from EFI\CLOVER\ACPI\patched: size=693 ... Success
+87:267  0:026  ApicCPUNum=8
+87:275  0:008  Maximum control=0x22
+87:283  0:008  Turbo control=0x26
+87:291  0:008  P-States: min 0x10, max 0x26
+87:299  0:008  SSDT with CPU P-States generated successfully
+87:307  0:008  SSDT with CPU C-States generated successfully
+87:315  0:008  Cleanup XSDT: count=11, length=124
+87:323  0:008  corrected XSDT count=9, length=108
+87:338  0:014  === [ RestSetup macOS ] =========================
+87:346  0:008  Framebuffer @0xe0000000  MMIO @0xf0000000 I/O Port @0x    e000 ROM Addr @0xF7E40000
+87:354  0:008  PCI region 1 = 0x       0, region3 = 0x       0, region5 = 0xF7E00000
+87:362  0:008  Use region5 as MMIO space
+87:373  0:011  RADEON_BIOS_4_SCRATCH=0x00000000, RADEON_CRTC2_GEN_CNTL == 0x00000000
+87:391  0:017   card posted because CONFIG_MEMSIZE=0x2000
+87:399  0:008  ATI card POSTed, 
+87:415  0:016  Set VRAM from config=8192Mb
+87:429  0:014  ATI: get_vram_size returned 0x200000000
+87:438  0:008  Users config name Orinoco
+87:446  0:008   use N ports setting from config.plist: 5
+87:454  0:008  (AtiPorts) Nr of ports set to: 5
+87:462  0:008  ATI: No default properties injected
+87:470  0:008  ATI Ellesmere AMD Radeon RX 480/570/580 8192MB (Orinoco) [1002:67DF] (subsys [1DA2:353E]):: PciRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0)
+87:478  0:008  Device 0 deinited
+87:487  0:008  stringlength = 550
+87:495  0:008  CurrentMode: Width=1920 Height=1080
+87:509  0:013  Beginning FSInjection
+87:520  0:011  Use origin smbios table type 1 guid.
+87:533  0:012  UniOSVersion == 10.15.6
+87:541  0:007  UniShortOSVersion == 10.15
+87:549  0:007  Preparing kexts injection from EFI\CLOVER\kexts\Other
+87:556  0:007  ->Extra kext: EFI\CLOVER\kexts\Other\USBPorts.kext (v.1.0)
+87:569  0:012  ->Extra kext: EFI\CLOVER\kexts\Other\FakePCIID.kext (v.1.3.15)
+87:587  0:018  ->Extra kext: EFI\CLOVER\kexts\Other\VirtualSMC.kext (v.1.0.9)
+87:612  0:025  ->Extra kext: EFI\CLOVER\kexts\Other\NullCPUPowerManagement.kext (v.1.0.0d2)
+87:644  0:031  ->Extra kext: EFI\CLOVER\kexts\Other\RealtekRTL8111.kext (v.2.2.2)
+87:703  0:059  ->Extra kext: EFI\CLOVER\kexts\Other\WhateverGreen.kext (v.1.4.2)
+87:778  0:075  ->Extra kext: EFI\CLOVER\kexts\Other\IntelMausiEthernet.kext (v.2.5.0)
+87:810  0:032  ->Extra kext: EFI\CLOVER\kexts\Other\VoodooHDA.kext (v.2.9.2)
+87:851  0:041  ->Extra kext: EFI\CLOVER\kexts\Other\Lilu.kext (v.1.4.7)
+87:912  0:060  Preparing kexts injection from EFI\CLOVER\kexts\Off
+87:927  0:015  Preparing kexts injection from EFI\CLOVER\kexts\10
+87:935  0:008  Preparing kexts injection from EFI\CLOVER\kexts\10_normal
+87:943  0:008  Preparing kexts injection from EFI\CLOVER\kexts\10.15
+87:952  0:008  Preparing kexts injection from EFI\CLOVER\kexts\10.15_normal
+87:960  0:008  Preparing kexts injection from EFI\CLOVER\kexts\10.15.6
+87:968  0:008  Preparing kexts injection from EFI\CLOVER\kexts\10.15.6_normal
+87:978  0:009  SetStartupDiskVolume:
+87:992  0:014    * Volume: 'Macintosh SSD'
+88:000  0:008    * LoaderPath: ''
+88:008  0:008    * DevPath: Macintosh SSD
+88:016  0:008    * GUID = CF18A592-8086-44D2-AF34-5A88AEE9E019
+88:025  0:008    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>CF18A592-8086-44D2-AF34-5A88AEE9E019</string></dict></dict></dict></array>
+88:034  0:008  Custom boot screen not used because entry has unset use graphics
+88:048  0:014  Closing log
+88:099  0:050  start image 'boot.efi'
+88:108  0:008  Using load options 'boot.efi nvda_drv=1 dart=0 -liludbg -wegdbg -v '
+88:217  0:109  OSInfo:OSName called
+89:393  1:175  KernelRelocBase = 0
+89:406  0:013  os_version=10.15.6
+89:414  0:008  Found 64 bit kernel at 0x24600000
+89:422  0:008   kernel offset at 0x0
+89:430  0:008  segCmd64->segname = __PRELINK_TEXT
+89:438  0:008  segCmd64->vmaddr = 0xFFFFFF8025436000
+89:447  0:008  segCmd64->vmsize = 0x03F9C000
+89:472  0:025  fileoff = 0x00F48000
+89:480  0:008  filesize = 0x03F9C000
+89:488  0:008  flags = 0x00000004
+89:496  0:008  PrelinkTextLoadCmdAddr = 0xC68, PrelinkTextAddr = 0x25436000, PrelinkTextSize = 0x3F9C000
+89:504  0:008  cffaedfe07000001030000000b000000040000008800000002000000fe7f
+89:763  0:259  segCmd64->segname = __PRELINK_INFO
+89:772  0:008  segCmd64->vmaddr = 0xFFFFFF80293D2000
+89:780  0:008  segCmd64->vmsize = 0x002D0000
+89:788  0:008  fileoff = 0x04EE4000
+89:796  0:008  filesize = 0x002CF054
+89:811  0:014  flags = 0x00000004
+89:819  0:008  __info found at 0x24600d48: addr = 0x4ee4000, size = 0x2cf054
+89:827  0:008  PrelinkInfoLoadCmdAddr = 0xD48, PrelinkInfoAddr = 0x293D2000, PrelinkInfoSize = 0x2CF054
+89:835  0:008  ncmd = 18
+89:843  0:008  cffaedfe07000001030000000200000012000000
+90:016  0:173  Kernel: AddrVtable=0xe2c880 SizeVtable=0x6416 NamesTable=0xe909e0
+90:024  0:008  kernel at 0x24600000
+90:050  0:025  ctor_used found at 0xd7e9e4
+90:064  0:014   NTabble=d7e9e0
+90:073  0:008  AddrVtable=d1a880 Size=6416 AddrNames=d7e9e0 shift=112000
+90:087  0:014  SegVAddr=0x28
+90:095  0:008  isKernelcache: Yes
+90:103  0:008  KernelPm patch: Enabled
+90:111  0:008  search name in kernel: xcpm_idle
+90:121  0:009  kernel: procAddr=0x258e60
+90:129  0:008  search name in kernel: xcpm_init
+90:138  0:009  kernel: procAddr=0x262f10
+90:146  0:008  search name in kernel: xcpm_core_scope_msrs
+90:156  0:009  kernel: procAddr=0xa5dbe0
+90:164  0:008  search name in kernel: xcpm_SMT_scope_msrs
+90:179  0:015  kernel: procAddr=0xa5dc70
+90:188  0:008  dump begin of WholePlist: <dict><key>_PrelinkI
+90:390  0:202  
+90:390  0:000  AnyKextPatch 0: driverAddr = 25f76000, driverSize = 10a000
+90:390  0:000    Label = com.apple.iokit.IOUSBHostFamily (USB port limit patch #1 10.15.x by pmheart, daliansky and ydeng)
+90:440  0:050  
+90:440  0:000  AnyKextPatch 1: driverAddr = 2631d000, driverSize = 5f000
+90:440  0:000    Label = com.apple.driver.usb.AppleUSBXHCI (USB port limit patch #2 10.15.x by pmheart, daliansky and ydeng)
+90:488  0:047  
+90:488  0:000  AnyKextPatch 2: driverAddr = 2651e000, driverSize = 17000
+90:488  0:000    Label = AppleGraphicsDevicePolicy (Black Screen Patch Vega 56/64, RX580 etc. (c)Pike R. Alpha)
+90:501  0:013  
+90:501  0:000  AnyKextPatch 3: driverAddr = 2651e000, driverSize = 17000
+90:501  0:000    Label = com.apple.driver.AppleGraphicsDevicePolicy (NoLabel)
+90:512  0:010  
+90:512  0:000  AnyKextPatch 4: driverAddr = 26767000, driverSize = 109000
+90:512  0:000    Label = AMD9500Controller (NoLabel)
+90:715  0:202  found __text [833E12D0,1B62A]
+90:848  0:132  
+90:848  0:000  PatchLoadedKexts ... dtRoot = 296a6000
+90:861  0:013  
+90:861  0:000  InjectKexts:  1 - EFI\CLOVER\kexts\Other\USBPorts.kext
+90:877  0:016   2 - EFI\CLOVER\kexts\Other\FakePCIID.kext
+90:885  0:007   3 - EFI\CLOVER\kexts\Other\VirtualSMC.kext
+90:892  0:007   4 - EFI\CLOVER\kexts\Other\NullCPUPowerManagement.kext
+90:900  0:007   5 - EFI\CLOVER\kexts\Other\RealtekRTL8111.kext
+90:908  0:007   6 - EFI\CLOVER\kexts\Other\WhateverGreen.kext
+90:922  0:014   7 - EFI\CLOVER\kexts\Other\IntelMausiEthernet.kext
+90:931  0:008   8 - EFI\CLOVER\kexts\Other\VoodooHDA.kext
+90:939  0:008   9 - EFI\CLOVER\kexts\Other\Lilu.kext
+91:474  0:534  search name in kernel: readStartupExtensions
+91:487  0:013  kernel: procAddr=0xcaaa30
+91:496  0:008  ==> readStartupExtensions at caaa30
+91:504  0:008  load kexts patched 
+91:512  0:008  search name in kernel: IOTaskHasEntitlement
+91:520  0:008  kernel: procAddr=0x878990
+91:534  0:014  search name in kernel: loadExecutable
+91:543  0:008  kernel: procAddr=0x79f510
+91:551  0:008  IOTaskHasEntitlement at 0x878990, loadExecutable at 0x79f510
+91:559  0:008  find3 at 0x4c4b400
+91:567  0:008  else search relative at 0x79f8b3
+91:575  0:008  search name in kernel: removeKextBootstrap
+91:583  0:008  kernel: procAddr=0x7a9fb0
+91:592  0:008  removeKextBootstrap at 0x2c2
+91:600  0:008  ==> patched KxldUnmap (10.14 - 10.15)

@@ -1,0 +1,95 @@
+45:678  1:319  Found BIOS RSDP at %p
+45:693  0:014  Printing ACPI tables from RSDP %p ...
+45:702  0:008   %p: 'RSD PTR £ALASKA(P8ß$', Rev: 17818631 (Acpi 2.0 or newer), Len: 36
+45:735  0:033    (Xsdt: %p, Rsdt: %p)
+45:743  0:008    %p: 'XSDT\', 'XSDT', Rev: 17818423, Len: 1
+45:774  0:031    %p: 'RSDT@', 'RSDT', Rev: 17818423, Len: 1
+45:799  0:024    Tables in Xsdt: 7
+45:807  0:008    0. %p: 'FACPô', 'FACP', Rev: 17818423, Len: 4
+45:832  0:025        (Dsdt: DF385168, Facs: DF3BEF80, XDsdt: df385168, XFacs: 0)
+45:857  0:024        %p: 'DSDTS»', 'DSDT', Rev: 17818263, Len: 2
+45:882  0:024        %p: 'FACS@', Ver: 17818459, Len: 2
+45:898  0:016    1. %p: 'APIC’', 'APIC', Rev: 17818423, Len: 3
+45:922  0:024    2. %p: 'MCFG<', 'MCFG', Rev: 17818423, Len: 1
+45:949  0:026    3. %p: 'HPET8', 'HPET', Rev: 17818423, Len: 1
+45:979  0:029    4. %p: 'SSDTm', 'SSDT', Rev: 17818423, Len: 1
+46:003  0:024    5. %p: 'SSDTª	', 'SSDT', Rev: 17818423, Len: 1
+46:027  0:024    6. %p: 'SSDT’
+46:036  0:008  ', 'SSDT', Rev: 17818423, Len: 1
+46:052  0:016    Tables in Rsdt: 7
+46:060  0:008    0. %p: 'FACP„', 'FACP', Rev: 17818423, Len: 2
+46:085  0:024        (Dsdt: DF385168, Facs: DF3BEF40)
+46:101  0:016        %p: 'DSDTS»', 'DSDT', Rev: 17818263, Len: 2
+46:126  0:025        %p: 'FACS@', Ver: 17818459, Len: 0
+46:149  0:022    1. %p: 'APIC’', 'APIC', Rev: 17818423, Len: 3
+46:173  0:024    2. %p: 'MCFG<', 'MCFG', Rev: 17818423, Len: 1
+46:200  0:026    3. %p: 'HPET8', 'HPET', Rev: 17818423, Len: 1
+46:224  0:024    4. %p: 'SSDTm', 'SSDT', Rev: 17818423, Len: 1
+46:249  0:024    5. %p: 'SSDTª	', 'SSDT', Rev: 17818423, Len: 1
+46:273  0:024    6. %p: 'SSDT’
+46:281  0:008  ', 'SSDT', Rev: 17818423, Len: 1
+46:298  0:016  Found UEFI Acpi 2.0 RSDP at %p
+46:306  0:008  Saving ACPI tables from RSDP %p to å’â„å‘â’ä†£ä…Œä­“Éå€¨$ ...
+46:320  0:014   %p: 'RSD PTR £ALASKA(P8ß$', Rev: 17818631 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+46:375  0:054    (Xsdt: %p, Rsdt: %p)
+46:383  0:008    %p: 'XSDT\', 'XSDT', Rev: 17818423, Len: 1 -> XSDT.aml
+46:426  0:043    %p: 'RSDT@', 'RSDT', Rev: 17818423, Len: 1 -> RSDT.aml
+46:475  0:048    Tables in Xsdt: 7
+46:483  0:008    0. %p: 'FACPô', 'FACP', Rev: 17818423, Len: 4 -> FACP.aml
+46:527  0:043        (Dsdt: DF385168, Facs: DF3BEF80, XDsdt: df385168, XFacs: 0)
+46:556  0:029        %p: 'DSDTS»', 'DSDT', Rev: 17818263, Len: 2 -> DSDT.aml
+46:618  0:062        %p: 'FACS@', Ver: 17818459, Len: 2 -> FACS.aml
+46:655  0:036    1. %p: 'APIC’', 'APIC', Rev: 17818423, Len: 3 -> APIC.aml
+46:711  0:056    2. %p: 'MCFG<', 'MCFG', Rev: 17818423, Len: 1 -> MCFG.aml
+46:755  0:044    3. %p: 'HPET8', 'HPET', Rev: 17818423, Len: 1 -> HPET.aml
+46:799  0:044    4. %p: 'SSDTm', 'SSDT', Rev: 17818423, Len: 1 -> SSDT-0-SataTabl.aml
+46:843  0:043    5. %p: 'SSDTª	', 'SSDT', Rev: 17818423, Len: 1 -> SSDT-1-Cpu0Ist.aml
+46:898  0:054    6. %p: 'SSDT’
+46:905  0:007  ', 'SSDT', Rev: 17818423, Len: 1 -> SSDT-2-CpuPm.aml (Found hidden SSDT 4 pcs)
+46:944  0:039        * 28524568: 'SSDT', 'CpuPm', Rev: 1, Len: 2706  53 53 44 54 92 0A 00 00 01 7B 50 6D 52 65 66 00 Internal length = 2706 -> SSDT-x2_0-CpuPm.aml
+47:117  0:172        * 3742296728: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 76 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x2_1-ApIst.aml
+47:299  0:181        * 3742289944: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 D8 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-x2_2-Cpu0Cst.aml
+47:478  0:178        * 3742301208: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_3-ApCst.aml
+47:655  0:177  
+47:663  0:008    Tables in Rsdt: 7
+47:672  0:008    0. %p: 'FACP„', 'FACP', Rev: 17818423, Len: 2 -> RSDT-FACP.aml
+47:717  0:045        (Dsdt: DF385168, Facs: DF3BEF40)
+47:742  0:025        %p: 'DSDTS»', 'DSDT', Rev: 17818263, Len: 2
+47:768  0:025        %p: 'FACS@', Ver: 17818459, Len: 0 -> RSDT-FACS.aml
+47:804  0:036    1. %p: 'APIC’', 'APIC', Rev: 17818423, Len: 3
+47:828  0:024    2. %p: 'MCFG<', 'MCFG', Rev: 17818423, Len: 1
+47:853  0:024    3. %p: 'HPET8', 'HPET', Rev: 17818423, Len: 1
+47:877  0:024    4. %p: 'SSDTm', 'SSDT', Rev: 17818423, Len: 1
+47:905  0:027    5. %p: 'SSDTª	', 'SSDT', Rev: 17818423, Len: 1
+47:929  0:024    6. %p: 'SSDT’
+47:938  0:008  ', 'SSDT', Rev: 17818423, Len: 1
+47:962  0:024  Found UEFI Acpi 1.0 RSDP at %p
+47:970  0:007  Printing ACPI tables from RSDP %p ...
+47:977  0:007   %p: 'RSD PTR £ALASKA(P8ß$', Rev: 17818631 (Acpi 2.0 or newer), Len: 36
+48:009  0:031    (Xsdt: %p, Rsdt: %p)
+48:017  0:007    %p: 'XSDT\', 'XSDT', Rev: 17818423, Len: 1
+48:040  0:023    %p: 'RSDT@', 'RSDT', Rev: 17818423, Len: 1
+48:063  0:023    Tables in Xsdt: 7
+48:071  0:007    0. %p: 'FACPô', 'FACP', Rev: 17818423, Len: 4
+48:095  0:023        (Dsdt: DF385168, Facs: DF3BEF80, XDsdt: df385168, XFacs: 0)
+48:126  0:031        %p: 'DSDTS»', 'DSDT', Rev: 17818263, Len: 2
+48:152  0:026        %p: 'FACS@', Ver: 17818459, Len: 2
+48:168  0:015    1. %p: 'APIC’', 'APIC', Rev: 17818423, Len: 3
+48:192  0:023    2. %p: 'MCFG<', 'MCFG', Rev: 17818423, Len: 1
+48:215  0:023    3. %p: 'HPET8', 'HPET', Rev: 17818423, Len: 1
+48:239  0:023    4. %p: 'SSDTm', 'SSDT', Rev: 17818423, Len: 1
+48:262  0:023    5. %p: 'SSDTª	', 'SSDT', Rev: 17818423, Len: 1
+48:293  0:030    6. %p: 'SSDT’
+48:301  0:008  ', 'SSDT', Rev: 17818423, Len: 1
+48:317  0:016    Tables in Rsdt: 7
+48:325  0:008    0. %p: 'FACP„', 'FACP', Rev: 17818423, Len: 2
+48:350  0:024        (Dsdt: DF385168, Facs: DF3BEF40)
+48:366  0:016        %p: 'DSDTS»', 'DSDT', Rev: 17818263, Len: 2
+48:394  0:027        %p: 'FACS@', Ver: 17818459, Len: 0
+48:410  0:016    1. %p: 'APIC’', 'APIC', Rev: 17818423, Len: 3
+48:435  0:024    2. %p: 'MCFG<', 'MCFG', Rev: 17818423, Len: 1
+48:459  0:024    3. %p: 'HPET8', 'HPET', Rev: 17818423, Len: 1
+48:490  0:030    4. %p: 'SSDTm', 'SSDT', Rev: 17818423, Len: 1
+48:514  0:024    5. %p: 'SSDTª	', 'SSDT', Rev: 17818423, Len: 1
+48:539  0:024    6. %p: 'SSDT’
+48:547  0:008  ', 'SSDT', Rev: 17818423, Len: 1
