@@ -397,32 +397,6 @@
 			</dict>
 			<dict>
 				<key>Find</key>
-				<data>Ym9hcmQtaWQ=</data>
-				<key>Name</key>
-				<string>AppleGraphicsDevicePolicy</string>
-				<key>Replace</key>
-				<data>Ym9hcmQtaXg=</data>
-				<key>Disabled</key>
-				<false/>
-				<key>Comment</key>
-				<string>Black Screen Patch Vega 56/64, RX580 etc. (c)Pike R. Alpha</string>
-				<key>InfoPlistPatch</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Find</key>
-				<data>ugUAAAA=</data>
-				<key>Name</key>
-				<string>com.apple.driver.AppleGraphicsDevicePolicy</string>
-				<key>Replace</key>
-				<data>ugAAAAA=</data>
-				<key>Disabled</key>
-				<false/>
-				<key>InfoPlistPatch</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Find</key>
 				<data>AAQAAAQDAAAAAQEBAAAAABIEBgEAAAAAAAQAAAQDAAAAAQIBAAAAACIFBAMAAAAAAAgAAAQCAAAAAQMAAAAAABECAQIAAAAAAAgAAAQCAAAAAQQAAAAAACEDBQQAAAAABAAAAAQAAAAAAQUAAAAAAAAAAwYAAAAA</data>
 				<key>Name</key>
 				<string>AMD9500Controller</string>
